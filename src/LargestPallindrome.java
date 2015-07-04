@@ -38,7 +38,6 @@ public class LargestPallindrome {
 	{	
 		String value = Integer.toString(num);
 		char temp[] = value.toCharArray();
-		//System.out.println(value);
 
 		int itr = temp.length/2;
 		int beginning =0;
