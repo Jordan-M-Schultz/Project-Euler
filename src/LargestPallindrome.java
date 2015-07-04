@@ -1,3 +1,4 @@
+//Jordan Schultz
 class pair{
 	
 	public int firstNum;
@@ -49,12 +50,12 @@ public class LargestPallindrome {
 			{
 				temp[temp.length/2+i] = temp[i]; //rearrange
 			}
-			//System.out.println(temp);
 
 			while(itr < temp.length)
 			{
-				if(temp[beginning]==temp[itr])
+				if((temp[beginning]==temp[itr])){
 					itr++;
+				}
 				else
 					return false;
 			}
